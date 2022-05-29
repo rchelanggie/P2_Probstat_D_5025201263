@@ -23,7 +23,7 @@ t.test(X, Y, alternative = "greater", var.equal = FALSE)
 ### No 1c. 
 ![](Pictures/1c.jpg)
 
-convidence dan mean sama memiliki nilai yang sama dengan 1b. 
+Convidence dan mean memiliki nilai yang sama dengan 1b. 
 Sehingga tidak memiliki pengaruh yang signifikan secara statistika
 
 ## Soal 2
