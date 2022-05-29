@@ -65,7 +65,7 @@ t <- (2.79 - 3.64)/(sp*x)
 ### No 3d. Nilai Kritikal
 ![](Pictures/3d.jpg)
 
-Nilai kritikal
+Nilai kritikal dapat dicari menggunakan rumus berikut
 ```
 qt(p = 0.025, df = 2, lower.tail = FALSE)
 ```
