@@ -17,3 +17,9 @@ t.test(X, Y, alternative = "greater", var.equal = FALSE)
 var.test(X, Y)
 t.test(X, Y, var.equal = TRUE)
 
+#No 2
+
+#No 2a. Apakah Anda setuju dengan klaim tersebut?
+install.packages("BSDA")
+library(BSDA)
+zsum.test(mean.x=23500, sigma.x=3900, n.x=100, alternative="greater", mu=20000)
