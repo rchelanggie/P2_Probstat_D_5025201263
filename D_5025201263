@@ -50,8 +50,3 @@ kritikal
 #No 3e. Keputusan
 stat = 3.64 + 2.79
 kritikal > stat
-# FALSE karena hasilnya stat lebih besar daripada kritikal
-
-#No 3f. Kesimpulan
-#Kesimpulan
-#Dilihat dari hasil, rata-rata saham Bali dan saham Bandung sama
