@@ -1,7 +1,7 @@
 # P2_Probstat_D_5025201263
 
 ## Soal 1
-### No 1a. 
+### No 1a.
 ![](Pictures/1a.jpg)
 
 Standar deviasi didapatkan dari selisih X dan Y
@@ -29,4 +29,10 @@ Sehingga tidak memiliki pengaruh yang signifikan secara statistika
 ## Soal 2
 ### No 2a.
 ![](Pictures/1a.jpg)
-Dengan kata lain, kita dapat setuju dengan klaim tersebut karena nilai yang didapatkan sesuai dengan klaim yang dinyatakan (lebih dari 20.000)
+
+Nilai yang didapatkan sesuai sehingga kita dapat setuju dengan klaim tersebut
+
+## Soal 3
+### No 3a.
+### No 3b.
+### No 3c. 
