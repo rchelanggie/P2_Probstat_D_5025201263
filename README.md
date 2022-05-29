@@ -26,3 +26,7 @@ t.test(X, Y, alternative = "greater", var.equal = FALSE)
 convidence dan mean sama memiliki nilai yang sama dengan 1b. 
 Sehingga tidak memiliki pengaruh yang signifikan secara statistika
 
+## Soal 2
+### No 2a.
+![](Pictures/1a.jpg)
+Dengan kata lain, kita dapat setuju dengan klaim tersebut karena nilai yang didapatkan sesuai dengan klaim yang dinyatakan (lebih dari 20.000)
