@@ -32,7 +32,15 @@ Sehingga tidak memiliki pengaruh yang signifikan secara statistika
 
 Nilai yang didapatkan sesuai sehingga kita dapat setuju dengan klaim tersebut
 
+### No 2b.
+Outputnya yaitu: H0: μ = 20000, H1: μ > 20000, dan nilai z: 8,9744
+
+### No 2c. 
+Kesimpulan
+Didapat nilai P mendekati 0, jadi tidak setuju untuk H0 dan mobil dikemudikan lebih dari 20.000 per tahun
+
 ## Soal 3
 ### No 3a.
+
 ### No 3b.
 ### No 3c. 
