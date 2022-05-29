@@ -1,7 +1,7 @@
 # P2_Probstat_D_5025201263
 
 ## Soal 1
-### No 1a.
+### No 1a. Standar Deviasi
 ![](Pictures/1a.jpg)
 
 Standar deviasi didapatkan dari selisih X dan Y
@@ -13,8 +13,9 @@ Standar deviasi didapatkan dari selisih X dan Y
   standardeviasi
 ```
 
-### No 1b. 
+### No 1b. Nilai t (p-value)
 ![](Pictures/1b.jpg)
+
 Hasil dari t.test
 ```
 t.test(X, Y, alternative = "greater", var.equal = FALSE)
@@ -40,17 +41,19 @@ Kesimpulan
 Didapat nilai P mendekati 0, jadi tidak setuju untuk H0 dan mobil dikemudikan lebih dari 20.000 per tahun
 
 ## Soal 3
-### No 3a.
+### No 3a. H0 dan H1
 ![](Pictures/3a.jpg)
 
-### No 3b.
+### No 3b. Sampel Statistik
 ![](Pictures/3b.jpg)
+
 Hasil di dapat menggunakan ```tsum.test```
 ```
 tsum.test(mean.x = 3.64, s.x = 1.67, n.x = 19, mean.y = 2.97, s.y = 1.32, n.y = 27, alternative = "greater", var.equal = TRUE)
 ```
-### No 3c. 
+### No 3c. Uji Statistik (df =2)
 ![](Pictures/3c.jpg)
+
 Dengan rumus sebagai berikut
 ```
 sp2 = ((27 - 1)*(1.32)^2) + ((19 - 1)*(1.67)^2)/(27 + 19 - 2)
@@ -59,17 +62,18 @@ x2 <- (1/27) + (1/19)
 x <- sqrt(x2)
 t <- (2.79 - 3.64)/(sp*x)
 ```
-### No 3d.
+### No 3d. Nilai Kritikal
 ![](Pictures/3d.jpg)
+
 Nilai kritikal
 ```
 qt(p = 0.025, df = 2, lower.tail = FALSE)
 ```
-### No 3e. 
+### No 3e. Keputusan
 ![](Pictures/3e.jpg)
 
 FALSE karena hasilnya stat lebih besar daripada kritikal
 
-### No 3f.
+### No 3f. Kesimpulan
 Kesimpulan
 Dilihat dari hasil, rata-rata saham Bali dan saham Bandung sama
