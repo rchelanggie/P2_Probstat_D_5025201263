@@ -67,6 +67,7 @@ qt(p = 0.025, df = 2, lower.tail = FALSE)
 ```
 ### No 3e. 
 ![](Pictures/3e.jpg)
+
 FALSE karena hasilnya stat lebih besar daripada kritikal
 
 ### No 3f.
