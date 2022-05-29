@@ -41,6 +41,34 @@ Didapat nilai P mendekati 0, jadi tidak setuju untuk H0 dan mobil dikemudikan le
 
 ## Soal 3
 ### No 3a.
+![](Pictures/3a.jpg)
 
 ### No 3b.
+![](Pictures/3b.jpg)
+Hasil di dapat menggunakan ```tsum.test```
+```
+tsum.test(mean.x = 3.64, s.x = 1.67, n.x = 19, mean.y = 2.97, s.y = 1.32, n.y = 27, alternative = "greater", var.equal = TRUE)
+```
 ### No 3c. 
+![](Pictures/3c.jpg)
+Dengan rumus sebagai berikut
+```
+sp2 = ((27 - 1)*(1.32)^2) + ((19 - 1)*(1.67)^2)/(27 + 19 - 2)
+sp <- sqrt(sp2)
+x2 <- (1/27) + (1/19)
+x <- sqrt(x2)
+t <- (2.79 - 3.64)/(sp*x)
+```
+### No 3d.
+![](Pictures/3d.jpg)
+Nilai kritikal
+```
+qt(p = 0.025, df = 2, lower.tail = FALSE)
+```
+### No 3e. 
+![](Pictures/3e.jpg)
+FALSE karena hasilnya stat lebih besar daripada kritikal
+
+### No 3f.
+Kesimpulan
+Dilihat dari hasil, rata-rata saham Bali dan saham Bandung sama
